@@ -1,3 +1,8 @@
 # Simple JSON editor
 
-Getting started
+
+```
+npm i
+npm run serve
+```
+

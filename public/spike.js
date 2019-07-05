@@ -66,7 +66,7 @@ $("#download-link").click(function() {
     "href",
     "data:text/plain;charset=utf-8," + encodeURIComponent(json)
   );
-  link.setAttribute("download", "data.txt");
+  link.setAttribute("download", "data.json");
   document.body.appendChild(link);
   link.click();
 });
